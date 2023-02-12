@@ -17,7 +17,7 @@ private class UpdateAccountSalesBatchTest {
 
         // Start the test batch
         Test.startTest();
-        updateAccountSalesBatch batch = new updateAccountSalesBatch();
+        UpdateAccountSalesBatch batch = new UpdateAccountSalesBatch();
         Id batchId = Database.executeBatch(batch);
         Test.stopTest();
         
@@ -51,7 +51,7 @@ private class UpdateAccountSalesBatchTest {
 
         // Start the test batch
         Test.startTest();
-        updateAccountSalesBatch batch = new updateAccountSalesBatch();
+        UpdateAccountSalesBatch batch = new UpdateAccountSalesBatch();
         Id batchId = Database.executeBatch(batch);
         Test.stopTest();
         
